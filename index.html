@@ -4,9 +4,38 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+   <title>Pedra | Papel | Tesoura</title>
 </head>
 <body>
-   
+   <h1>Jogo Pedra | Papel | Tesoura</h1>
+   <br>
+   <h2>Placar</h2>
+   <p><span>Jogador </span><span id="placar-jogador"> 0 </span> X <span id="placar-computador"> 0 </span><span> Computador</span></p>
+   <div class="container-jogo">
+      <div class="container-jogador">
+         <h3>Escolha uma opção</h3>
+         <img class="mao-jogo mao-jogador" src="./img/pedra.png" alt="" >
+         <img class="mao-jogo mao-jogador" src="./img/papel.png" alt="" >
+         <img class="mao-jogo mao-jogador" src="./img//tesoura.png" alt="" >
+      </div>
+      <div class="container-jogada">
+         <div class="jogada-escolhida">
+            <img class="escolha-jogador" src="./img/interrogacao.png" alt="">
+            <img src="./img//Icone-X-Png.png" alt="">
+            <img class="escolha-computador" src="./img/interrogacao.png" alt="">
+         </div>         
+         <div class="jogada-resultado">
+            <p class="resposta-vencedor">Vencedor</p>
+         </div>
+      </div>
+      <div class="container-computador">
+         <h3>Opção do computador</h3>
+         <img class="mao-jogo mao-computador" src="./img/pedra.png" alt="">
+         <img class="mao-jogo mao-computador" src="./img/papel.png" alt="" >
+         <img class="mao-jogo mao-computador" src="./img//tesoura.png" alt="">
+      </div>
+   </div>
+   <script src="./script.js"></script>
 </body>
 </html>
