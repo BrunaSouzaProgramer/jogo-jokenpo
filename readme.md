@@ -23,4 +23,4 @@ Esse jogo foi criado com o objetivo de ensinar manipulação do DOM, lógica de 
 
 # Link para jogar
 
-[https://arceniosouza.github.io/JogoPedraPapelTesoura/](https://arceniosouza.github.io/JogoPedraPapelTesoura/)
+[https://brunasouzaprogramer.github.io/jogo-jokenpo/](https://brunasouzaprogramer.github.io/jogo-jokenpo/)
